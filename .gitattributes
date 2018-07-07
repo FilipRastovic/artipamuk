@@ -1,2 +1,13 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# Gulp related #
+######################
+env.js
+.idea
+.gulp-scss-cache/
+.sass-cache/
+.resources/
+node_modules/
+node_modules/
+*node_modules/*
+bower_components
