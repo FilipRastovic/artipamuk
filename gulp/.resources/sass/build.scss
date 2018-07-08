@@ -1,7 +1,3 @@
-@import "../../build/sass/variables.scss";
-
-@import "../../build/sass/mixins/mixins.scss";
-
 @import "../../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap-sprockets.scss";
 
 @import "../../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
@@ -2348,34 +2344,14 @@
 
 @import "../../build/sass/baseline/variables.scss";
 
-@import "../../build/sass/pages/interior.scss";
-
-@import "../../build/sass/modules/cards/cards.scss";
-
-@import "../../build/sass/modules/contact-form/contact-form.scss";
-
-@import "../../build/sass/modules/contact-page/contact-page.scss";
-
-@import "../../build/sass/modules/file-upload-page/file-upload-page.scss";
-
 @import "../../build/sass/modules/footer/footer.scss";
 
-@import "../../build/sass/modules/interior-paragraph/interior-paragraph.scss";
+@import "../../build/sass/modules/gallery-section/gallery.scss";
 
-@import "../../build/sass/modules/latest-work/latest-work.scss";
-
-@import "../../build/sass/modules/main-page-hero/main-page-hero.scss";
-
-@import "../../build/sass/modules/main-page-one-column/main-page-one-column.scss";
-
-@import "../../build/sass/modules/main-page-two-columns/main-page-two-columns.scss";
+@import "../../build/sass/modules/hero/hero.scss";
 
 @import "../../build/sass/modules/navbar-desktop/navbar-desktop.scss";
 
-@import "../../build/sass/modules/navbar-mobile/navbar-mobile.scss";
+@import "../../build/sass/modules/how-it-works/how-it-works.scss";
 
-@import "../../build/sass/modules/scroll-to-top/scroll-to-top.scss";
-
-@import "../../build/sass/modules/testimonials/testimonials.scss";
-
-@import "../../build/sass/modules/app.scss";
+@import "../../build/sass/modules/two-column/two-column.scss";
