@@ -8188,19 +8188,29 @@ button:hover {
   .footer a {
     color: white;
     text-transform: uppercase;
-    font-size: 16px; }
+    font-size: 14px; }
 
-.footer-up {
-  padding: 40px 0px; }
+.footer-up div {
+  padding-top: 20px; }
+
+.footer-up hr {
+  margin-top: 0px; }
 
 .footer-down {
-  padding: 100px 0px; }
+  padding: 60px 0px; }
+  .footer-down .fa {
+    font-size: 53px;
+    margin-right: 30px; }
 
 .pull-right {
   float: right; }
 
+.footerBackToTop {
+  color: #B89D4F !important;
+  font-size: 20px !important; }
+
 .gallery {
-  padding: 150px 0px 100px; }
+  padding: 40px 0px 50px; }
   .gallery button {
     background: white;
     border: 1px solid #B89D4F;
@@ -8209,13 +8219,23 @@ button:hover {
     padding: 4px 35px;
     font-size: 30px;
     transition: .3s; }
-  .gallery button:hover {
-    background: white;
+  .gallery button:hover,
+  .gallery button:active,
+  .gallery button:visited,
+  .gallery button:focus {
+    background: white !important;
     border: 1px solid #B89D4F;
     color: #B89D4F; }
+  .gallery .btn-kolekcija:hover,
+  .gallery .btn-kolekcija:active,
+  .gallery .btn-kolekcija:visited,
+  .gallery .btn-kolekcija:focus {
+    background: #B89D4F !important;
+    border: 1px solid #B89D4F;
+    color: white; }
 
 .carousel-control {
-  top: 500px;
+  top: 570px;
   margin-bottom: 50px; }
 
 .carousel-control.left {
@@ -8251,14 +8271,13 @@ button:hover {
 .btn-hero {
   font-family: 'Lato', sans-serif;
   border-radius: 0px;
-  background: #F5F5F5;
-  color: black;
-  border: 1px solid #c2c1c1;
+  background: #B89D4F;
+  border: 1px solid #B89D4F;
   padding: 11px 39px;
   letter-spacing: 2px;
   margin-top: 40px;
   border-color: #a7a6a6;
-  color: #030303;
+  color: white;
   transition: .3s;
   display: inline-block; }
 
@@ -8267,11 +8286,40 @@ button:hover {
 
 .btn-hero:hover,
 .btn-hero:active,
-.btn-hero:focus {
-  background: #B89D4F;
+.btn-hero:focus,
+.btn-hero:visited {
+  background: #B89D4F !important;
   color: white;
   border: none;
   border: 1px solid #B89D4F; }
+
+.how-it-works {
+  padding: 60px 0px 100px;
+  background: #F5F5F5; }
+  .how-it-works h3 {
+    font-family: 'Cinzel', serif;
+    padding-bottom: 20px;
+    font-size: 2rem; }
+  .how-it-works p {
+    font-size: 16px;
+    line-height: 147%; }
+  .how-it-works .row {
+    padding-bottom: 160px; }
+  .how-it-works .btn-primary {
+    font-family: 'Lato', sans-serif;
+    border-radius: 0px;
+    background: #B89D4F;
+    border: 1px solid #B89D4F;
+    padding: 11px 39px;
+    letter-spacing: 2px;
+    margin-top: 40px;
+    color: white;
+    transition: .3s; }
+  .how-it-works .btn-primary:hover,
+  .how-it-works .btn-primary:active,
+  .how-it-works .btn-primary:focus,
+  .how-it-works .btn-primary:visited {
+    background: #B89D4F; }
 
 .nav-desktop {
   position: relative;
@@ -8309,11 +8357,6 @@ button:hover {
   height: 100%;
   transform: .3s; }
 
-.nav-desktop {
-  background: #F5F5F5; }
-  .nav-desktop .nav-justified .nav-list li:hover {
-    z-index: 1000; }
-
 .nav-justified .nav-list li a {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -8328,6 +8371,14 @@ button:hover {
   height: 100%;
   transform: .3s; }
 
+.nav-desktop {
+  background: #F5F5F5; }
+  .nav-desktop .nav-justified .nav-list li:hover {
+    z-index: 1000; }
+  .nav-desktop .nav-justified .nav-list li a:hover {
+    text-decoration: none;
+    color: #B89D4F; }
+
 .nav-item--wide {
   -webkit-box-flex: 6 !important;
   -ms-flex: 6 0 175px !important;
@@ -8336,29 +8387,6 @@ button:hover {
 .nav-list .nav-list-logo a {
   font-size: 2rem;
   font-weight: 400; }
-
-.how-it-works {
-  padding: 60px 0px 100px;
-  background: #F5F5F5; }
-  .how-it-works h3 {
-    font-family: 'Cinzel', serif;
-    padding-bottom: 20px;
-    font-size: 2rem; }
-  .how-it-works p {
-    font-size: 16px;
-    line-height: 147%; }
-  .how-it-works .row {
-    padding-bottom: 160px; }
-  .how-it-works .btn-primary {
-    font-family: 'Lato', sans-serif;
-    border-radius: 0px;
-    background: #B89D4F;
-    border: 1px solid #B89D4F;
-    padding: 11px 39px;
-    letter-spacing: 2px;
-    margin-top: 40px;
-    color: white;
-    transition: .3s; }
 
 .two-column {
   padding: 100px 0px;

@@ -39,20 +39,6 @@
     transform: .3s;
 }
 
-.nav-desktop {
-    background: $background-color;
-
-    .nav-justified .nav-list li:hover {
-        z-index: 1000;
-        // background
-        // box-shadow
-    }
-
-    .nav-justified .nav-list li a :hover {
-        // color
-    }
-}
-
 .nav-justified .nav-list li a {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -66,6 +52,20 @@
     color: #707070;
     height: 100%;
     transform: .3s;
+}
+
+
+.nav-desktop {
+    background: $background-color;
+
+    .nav-justified .nav-list li:hover {
+        z-index: 1000;
+    }
+
+    .nav-justified .nav-list li a:hover {
+        text-decoration: none;
+        color: $golden-color;
+    }
 }
 
 .nav-item--wide {

@@ -29,4 +29,11 @@
         color: white;
         transition: .3s;
     }
+
+    .btn-primary:hover,
+    .btn-primary:active,
+    .btn-primary:focus,
+    .btn-primary:visited {
+        background: $golden-color;
+    }
 }
