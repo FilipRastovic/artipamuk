@@ -1,0 +1,33 @@
+/* Sections of the page */
+.hero {
+    background: $background-color;
+    padding: 100px 0px;
+
+    @include respond(phone) {
+        padding-top: 2rem;
+    }
+}
+
+.gallery-section {
+    padding: 20px 0px 60px;
+}
+
+.golden {
+    color: $golden-color;
+}
+
+.how-it-works-section {
+    padding: 60px 0px 100px;
+    background: $background-color;
+    color: #030303;
+
+    .row {
+        padding-bottom: 160px;
+    }
+}
+
+.how-it-works-section-mobile {
+    img {
+        margin-bottom: 20px;
+    }
+}   

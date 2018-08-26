@@ -2340,18 +2340,36 @@
   clip: auto;
 }
 
-@import "../../build/sass/baseline/baseline.scss";
+@import "../../build/sass/_variables.scss";
 
-@import "../../build/sass/baseline/variables.scss";
+@import "../../build/sass/abstracts/_functions.scss";
 
-@import "../../build/sass/modules/footer/footer.scss";
+@import "../../build/sass/abstracts/_mixins.scss";
 
-@import "../../build/sass/modules/gallery-section/gallery.scss";
+@import "../../build/sass/base/_animations.scss";
 
-@import "../../build/sass/modules/hero/hero.scss";
+@import "../../build/sass/base/_base.scss";
 
-@import "../../build/sass/modules/how-it-works/how-it-works.scss";
+@import "../../build/sass/base/_typography.scss";
 
-@import "../../build/sass/modules/navbar-desktop/navbar-desktop.scss";
+@import "../../build/sass/base/_utilities.scss";
 
-@import "../../build/sass/modules/two-column/two-column.scss";
+@import "../../build/sass/components/_buttons.scss";
+
+@import "../../build/sass/components/_carousel.scss";
+
+@import "../../build/sass/components/_copy.scss";
+
+@import "../../build/sass/layout/_footer.scss";
+
+@import "../../build/sass/layout/_nav-mobile.scss";
+
+@import "../../build/sass/layout/_navbar-desktop.scss";
+
+@import "../../build/sass/pages/_about.scss";
+
+@import "../../build/sass/pages/_contact.scss";
+
+@import "../../build/sass/pages/_gallery.scss";
+
+@import "../../build/sass/pages/_home.scss";

@@ -1,0 +1,12 @@
+/* Sections of the page */
+.about {
+    background: $background-color;
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+
+    img {
+        @include respond(phone) {
+            margin-bottom: 6rem;
+        }
+    }
+}

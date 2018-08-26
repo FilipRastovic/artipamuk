@@ -1,0 +1,79 @@
+/* Sections of the page */
+.contact {
+    position: relative;
+    background: $background-color;
+    padding-bottom: 21rem;
+
+    .contact-images-decoration {
+        img {
+            position: absolute;
+        }
+    }
+
+    input,
+    textarea {
+        background: none;
+        border: none;
+        border-left: 1px solid #707070;
+        border-bottom: 1px solid #707070;
+        box-shadow: none;
+        border-radius: 0px;
+        margin-bottom: 1.5rem;
+
+        @media (max-width: $break-mobile) {
+            border: 1px solid #707070;
+            border-radius: 3px;
+        }
+    }
+
+    .form-button {
+        background: $golden-color;
+        border: none;
+        color: white;
+
+        @media (max-width: $break-mobile) {
+            width: 100%;
+        }
+    }
+
+    .kon-2 {
+        left: 100px;
+    }
+
+    .kon-3 {
+        left: 150px;
+    }
+
+    .golden {
+        font-size: 34px;
+        font-weight: 300;
+    
+        @media (max-width: $break-mobile) {
+            text-align: center;
+            font-size: 25px;
+        }
+    }
+    
+    .smaller-contact-heading {
+        font-size: 16px;
+        font-family: 'Cinzel', serif;
+        font-weight: 300;
+        text-transform: uppercase;
+    
+        @media (max-width: $break-mobile) {
+            text-align: center;
+            font-size: 13px;
+        }
+    }
+    
+    .larger-contact-heading {
+        font-size: 28px;
+        font-weight: 400;
+    
+        @media (max-width: $break-mobile) {
+            text-align: center;
+            font-size: 23px;
+        }
+    }
+}
+

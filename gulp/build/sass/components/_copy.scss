@@ -1,0 +1,14 @@
+.copy-section {
+    padding-top: 17rem;
+    padding-bottom: 10rem;
+
+    &--smaller-padding {
+        padding-top: 7rem;
+    }
+
+    img {
+        @include respond(phone) {
+            margin-top: 10rem;
+        }
+    }
+}

@@ -1,0 +1,35 @@
+.carousel-control {
+   top: 580px;
+
+   @include respond(tab-port) {
+     top: 330px;
+   }
+   
+   @include respond(phone) {
+       top: 380px;
+   }
+}
+
+.carousel-control.left {
+    left: 350px;
+
+    @include respond(tab-port) {
+        left: 400px;
+    }
+
+    @include respond(phone) {
+        left: 200px;
+    }
+}
+
+.carousel-control.right {
+    right: 350px;
+
+    @include respond(tab-port) {
+        right: 400px;
+    }
+
+    @include respond(phone) {
+        right: 250px;
+    }
+}

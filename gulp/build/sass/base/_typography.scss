@@ -1,0 +1,93 @@
+body {
+	font-family: 'Lato', sans-serif;
+	line-height: 1.7;
+    font-weight: 400;
+    line-height: 1.7;
+    color: $text-color;
+}
+
+.heading-primary {
+    color: $text-color;
+    font-family: 'Cinzel', serif;
+	text-transform: uppercase;
+    backface-visibility: hidden;
+	margin-bottom: 4rem;
+	
+	&--main {
+		display: block;
+		font-size: 5.5rem;
+        font-weight: 400;
+		letter-spacing: 1rem;
+		
+		@include respond(phone) {
+            letter-spacing: 1rem;
+            font-family: 5rem;
+            text-align: center;
+        }
+	}
+
+	&--sub {
+		display: block;
+        font-size: 1.6rem;
+        font-weight: 700;
+        animation: moveInRight 1s ease-out;
+        font-family: 'Lato', sans-serif;
+
+        @include respond(phone) {
+            letter-spacing: .5rem;
+        }
+	}
+}
+
+.heading-secondary {
+	color: $text-color;
+    font-family: 'Cinzel', serif;
+	text-transform: uppercase;
+    backface-visibility: hidden;
+    margin-bottom: 6rem;
+    letter-spacing: 1rem;
+    font-size: 5rem;
+    
+    &--less-margin {
+        margin-bottom: 4rem
+    }
+	
+	@include respond(tab-port) {
+        font-size: 3rem;
+    }
+
+    @include respond(phone) {
+        font-size: 4rem;
+        text-align: center;
+    }
+}
+
+.heading-tertiary {
+    font-size: 3rem;
+    font-weight: 700;
+    color: $text-color;
+    font-family: 'Cinzel', serif;
+    text-transform: uppercase;
+}
+
+.paragraph {
+    font-size: $default-font-size;
+
+    @include respond(phone) {
+        text-align: center;
+        margin-right: 0;
+        margin-bottom: 4rem;
+    }
+    
+
+    &--hero {
+        font-family: 'Lato', sans-serif;
+        margin-right: 9rem;
+        margin-bottom: 4rem;
+
+        @include respond(phone) {
+            text-align: center;
+            margin-right: 0;
+        }
+    }
+}

@@ -2,6 +2,10 @@ $text-color: #707070;
 $background-color: #F5F5F5;
 $golden-color: #B89D4F;
 
+$break-mobile: 415px;
+$break-ipad: 769px;
+$break-laptop: 1441px;
+
 $material-shadow-1: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 $material-shadow-1-hovered: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 $material-shadow-2: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
@@ -9,10 +13,4 @@ $material-shadow-3: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 $material-shadow-4: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 $material-shadow-5: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 
-img {
-    box-shadow: $material-shadow-4;
-}
-
-button:hover {
-    box-shadow: $material-shadow-1-hovered;
-}
+$default-font-size: 1.6rem;
