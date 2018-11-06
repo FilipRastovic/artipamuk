@@ -9,7 +9,7 @@ body {
 .heading-primary {
     color: $text-color;
     font-family: 'Cinzel', serif;
-	text-transform: uppercase;
+	
     backface-visibility: hidden;
 	margin-bottom: 4rem;
 	
@@ -17,10 +17,10 @@ body {
 		display: block;
 		font-size: 5.5rem;
         font-weight: 400;
-		letter-spacing: 1rem;
+		letter-spacing: 1px;
 		
 		@include respond(phone) {
-            letter-spacing: 1rem;
+            letter-spacing: 1px;
             font-family: 5rem;
             text-align: center;
         }
@@ -42,10 +42,9 @@ body {
 .heading-secondary {
 	color: $text-color;
     font-family: 'Cinzel', serif;
-	text-transform: uppercase;
     backface-visibility: hidden;
     margin-bottom: 6rem;
-    letter-spacing: 1rem;
+    letter-spacing: 1px;
     font-size: 5rem;
     
     &--less-margin {

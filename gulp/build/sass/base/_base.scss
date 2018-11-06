@@ -33,3 +33,9 @@ body {
         padding: 0;
     }
 }
+
+.navbar-default {
+    background: $background-color !important;
+    color: $text-color !important;
+    border: none !important;
+}

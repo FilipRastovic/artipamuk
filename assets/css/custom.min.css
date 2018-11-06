@@ -8218,6 +8218,11 @@ body {
     body {
       padding: 0; } }
 
+.navbar-default {
+  background: #F5F5F5 !important;
+  color: #707070 !important;
+  border: none !important; }
+
 body {
   font-family: 'Lato', sans-serif;
   line-height: 1.7;
@@ -8228,17 +8233,16 @@ body {
 .heading-primary {
   color: #707070;
   font-family: 'Cinzel', serif;
-  text-transform: uppercase;
   backface-visibility: hidden;
   margin-bottom: 4rem; }
   .heading-primary--main {
     display: block;
     font-size: 5.5rem;
     font-weight: 400;
-    letter-spacing: 1rem; }
+    letter-spacing: 1px; }
     @media only screen and (max-width: 37.5em) {
       .heading-primary--main {
-        letter-spacing: 1rem;
+        letter-spacing: 1px;
         font-family: 5rem;
         text-align: center; } }
   .heading-primary--sub {
@@ -8254,10 +8258,9 @@ body {
 .heading-secondary {
   color: #707070;
   font-family: 'Cinzel', serif;
-  text-transform: uppercase;
   backface-visibility: hidden;
   margin-bottom: 6rem;
-  letter-spacing: 1rem;
+  letter-spacing: 1px;
   font-size: 5rem; }
   .heading-secondary--less-margin {
     margin-bottom: 4rem; }
@@ -8343,7 +8346,11 @@ body {
     .btn {
       font-family: 5rem;
       width: 100%;
-      font-size: 2.3rem; } }
+      font-size: 2.3rem;
+      margin-bottom: 20px; } }
+
+.btn-bot {
+  margin-top: 20px; }
 
 .carousel-control {
   top: 580px; }
@@ -8572,3 +8579,6 @@ body {
 
 .how-it-works-section-mobile img {
   margin-bottom: 20px; }
+
+footer a {
+  margin-left: 20px; }
