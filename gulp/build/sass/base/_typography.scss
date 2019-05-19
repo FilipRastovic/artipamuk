@@ -11,7 +11,7 @@ body {
     font-family: 'Cinzel', serif;
 	
     backface-visibility: hidden;
-	margin-bottom: 4rem;
+	margin-bottom: 3rem;
 	
 	&--main {
 		display: block;
@@ -75,14 +75,15 @@ body {
     @include respond(phone) {
         text-align: center;
         margin-right: 0;
-        margin-bottom: 4rem;
+        margin-bottom: 2rem;
     }
     
 
     &--hero {
         font-family: 'Lato', sans-serif;
-        margin-right: 9rem;
+        max-width: 480px;
         margin-bottom: 4rem;
+        
 
         @include respond(phone) {
             text-align: center;

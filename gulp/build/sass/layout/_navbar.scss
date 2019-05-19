@@ -1,0 +1,29 @@
+.navbar {
+    margin-bottom: 0;
+
+    @media (min-width: 600px) {
+        .container {
+            padding: 20px 15px;
+        }
+    }
+}
+
+.navbar-default {
+    border-bottom: 1px solid #c2c1c1;
+    background: $background-color;
+    font-family: 'Cinzel', serif;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.navbar-collapse li {
+    list-style: none;
+    padding: 15px 0 0;
+    a {
+        font-weight: 700;
+        font-size: 14px;
+    }
+}

@@ -1,15 +1,15 @@
 /* All button styles */
 .btn {
     font-family: 'Lato', sans-serif;
-    border-radius: 0px;
+    border-radius: 8px;
     background: $golden-color;
     border: none;
-    padding: 12px 54px;
-    letter-spacing: 2px;
+    padding: 12px 44px;
+    letter-spacing: 0px;
     color: white;
     transition: .3s;
     display: inline-block;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 1.3rem;
 
     &:hover {
@@ -25,7 +25,7 @@
         border-radius: 6px;
     }
     
-    @include respond(phone) {
+    @include respond(tab-port) {
         font-family: 5rem;
         width: 100%;
         font-size: 2.3rem;
