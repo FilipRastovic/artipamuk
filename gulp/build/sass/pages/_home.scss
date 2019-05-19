@@ -3,11 +3,6 @@
     background: $background-color;
     padding: 100px 0px;
 
-    img {
-        border-radius: 18px;
-        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1), 0 0 15px rgba(0, 0, 0, 0.1);
-    }
-
     @include respond(phone) {
         padding-top: 2rem;
     }
@@ -25,9 +20,24 @@
     padding: 60px 0px 100px;
     background: $background-color;
     color: #030303;
+    
+    @include respond(phone) {
+        h3 {
+            text-align: center;
+        }
+
+        p {
+            max-width: 350px;
+            margin: 0 auto;
+        }
+    }
 
     .row {
         padding-bottom: 160px;
+
+        @include respond(phone) {
+            padding-bottom: 60px;
+        }
     }
 }
 

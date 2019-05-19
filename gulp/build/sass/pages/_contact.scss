@@ -30,6 +30,7 @@
         background: $golden-color;
         border: none;
         color: white;
+        border-radius: 10px;
 
         @media (max-width: $break-mobile) {
             width: 100%;

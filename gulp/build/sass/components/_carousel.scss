@@ -18,7 +18,7 @@
     }
 
     @include respond(phone) {
-        left: 200px;
+        left: 57px;
     }
 }
 
@@ -30,6 +30,6 @@
     }
 
     @include respond(phone) {
-        right: 250px;
+        right: 100px;
     }
 }

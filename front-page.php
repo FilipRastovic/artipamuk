@@ -198,11 +198,11 @@ endif;
 			<div class="col-md-12 text-center">
 				<h2 class="heading-secondary"><?php echo $homepage_copy_title; ?></h2>
 			</div>
-			<div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-1 golden">
+			<div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-1 golden u-margin-bottom-small">
 				<?php echo $homepage_copy_copy; ?>
 
 			</div>
-			<div class="col-8 col-xs-offset-2 col-md-4 col-md-offset-0">
+			<div class="col-xs-8 col-xs-offset-2 col-md-4 col-md-offset-0">
 				<img class="img-responsive" src="<?php echo $homepage_copy_img['url']; ?>" alt="Image">
 			</div>
 		</div>
@@ -257,7 +257,7 @@ endif;
 				<h2 class="heading-secondary"><?php $homepage_how_it_works_title ?></h2> <!-- Proces -->
 			</div>
 
-			<div class="col-xs-8 col-sm-4 col-sm-offset-1">
+			<div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-1">
 				<img src="<?php echo $homepage_how_it_works_img_1['url']; ?>" class="img-responsive"
 					alt="Step 1">
 			</div>
@@ -271,7 +271,7 @@ endif;
 
 		</div>
 		<div class="row">
-			<div class="col-xs-8 col-sm-4 col-sm-push-5 col-sm-offset-1">
+			<div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-push-5 col-sm-offset-1">
 				<img src="<?php echo $homepage_how_it_works_img_2['url']; ?>" class="img-responsive"
 					alt="Step 2">
 			</div>
@@ -284,13 +284,13 @@ endif;
 
 		</div>
 		<div class="row">
-			<div class="col-xs-8 col-sm-4 col-sm-offset-1">
+			<div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-1">
 				<img src="<?php echo $homepage_how_it_works_img_3['url']; ?>" class="img-responsive"
 					alt="Step 3">
 			</div>
 			<div class="col-xs-12 col-sm-5 col-sm-offset-1">
 				<h3 class="heading-tertiary"><?php echo $homepage_how_it_works_3_title; ?></h3><!-- Treći korak -->
-				<p class="paragraph"><?php echo $homepage_how_it_works_3_paragraph; ?></p><!-- Rad je završen i spreman za pošiljku. Dogovorimo se kada vam odgovara slanje i vi
+				<p class="paragraph u-margin-bottom-small"><?php echo $homepage_how_it_works_3_paragraph; ?></p><!-- Rad je završen i spreman za pošiljku. Dogovorimo se kada vam odgovara slanje i vi
 					dobijate vašu narudžbinu. -->
 				<a href="/kontakt" class="btn btn--hero-cta">Naruči</a>
 			</div>
